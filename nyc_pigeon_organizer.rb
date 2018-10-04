@@ -21,5 +21,7 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   # write your code here!
   list = {}
-  
+  data.each do |attrib, info|
+    info.each do |key, names|
+      names.each do |name|
 end
