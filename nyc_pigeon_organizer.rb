@@ -37,7 +37,7 @@ def nyc_pigeon_organizer(data)
         
         end
         
-        list[name][attri] << key.to_s
+        list[name][attri] << detail.to_s
       
       end
     end
