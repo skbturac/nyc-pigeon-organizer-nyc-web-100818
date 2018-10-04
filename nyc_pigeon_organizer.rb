@@ -24,15 +24,15 @@ def nyc_pigeon_organizer(data)
   list = {}
   
   data.each do |attri, info|
-    info.each do |key, names|
+    info.each do |detail, names|
       names.each do |name|
         
-        if list.keys.include?(name) == false
+        if list.detail.include?(name) == false
           list[name] = {}
           
         end
         
-        if list[name].keys.include?(attri) == false
+        if list[name].detail.include?(attri) == false
           list[name][attri] = []
         
         end
