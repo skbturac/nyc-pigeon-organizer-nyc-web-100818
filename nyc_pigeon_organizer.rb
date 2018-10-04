@@ -23,7 +23,7 @@ def nyc_pigeon_organizer(data)
   
   list = {}
   
-  data.each do |attrib, info|
+  data.each do |attri, info|
     info.each do |key, names|
       names.each do |name|
         
@@ -32,12 +32,12 @@ def nyc_pigeon_organizer(data)
           
         end
         
-        if list[name].keys.include?(attrib) == false
-          list[name][attrib] = []
+        if list[name].keys.include?(attri) == false
+          list[name][attri] = []
         
         end
         
-        list[name][attrib] << key.to_s
+        list[name][attri] << key.to_s
       
       end
     end
